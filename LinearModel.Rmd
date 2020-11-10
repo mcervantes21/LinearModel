@@ -96,6 +96,8 @@ Finally this prediction shows the values range from 0.149 to 2.43 which demonstr
 anova(model.1,model.3)
 ```
 
+After looking at all of our data we collected we can tell that we have a very low p-value therefore we reject the null hypothesis. The null hypothesis tells us that there isn't any difference in how well model 1 explains ARM and how well model 2 explains ARM.
+
 ### Conclusion   
 
-We can now conclude that model 2 is the worst one, Model 1 is the second best one and model 3 is the best model based on what's going with the adjusted r-squared. 
+We can now conclude that model 2 is the worst one, Model 1 is the second best one and model 3 is the best model based on what's going with the adjusted r-squared and our anova test. Model 3 is doing a much better job than the other models. 
