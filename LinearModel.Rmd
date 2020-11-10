@@ -92,6 +92,10 @@ predict(model.3,new,interval="prediction")
 ```
 Finally this prediction shows the values range from 0.149 to 2.43 which demonstrates how this model is the best because it has absolutely no negative values like the other two did.
 
+```{r}
+anova(model.1,model.3)
+```
+
 ### Conclusion   
 
 We can now conclude that model 2 is the worst one, Model 1 is the second best one and model 3 is the best model based on what's going with the adjusted r-squared. 
